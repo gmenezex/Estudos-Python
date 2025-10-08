@@ -1,0 +1,35 @@
+É uma forma de guardar seus dados de forma sequencial. Pode ter strings e inteiros nos seus dados.
+
+uma lista ela é feita dentro de [ ] 
+
+Exemplo: carros = [’Fusca’, ‘Chevette’]
+
+## Métodos:
+
+carros.append(’Marea’) > vai adicionar um elemento no final da lista.
+
+carros.insert(1, ‘Escrot’) > Ele adiciona um elemento na lista, na posição informada, é passado 2 parâmetros ( 1° É a posição do índice e 2° o valor) 
+
+carros.pop() > Remove o ultimo elemento da lista e apresenta ele na tela se colocar em um print.
+
+del carros[0] > Aqui selecionamos o elemento que quero remover passando o índice dele.
+
+carros.remove(’Marea’) > Eu consigo remover o elemento passando o seu valor.
+
+carros.count(’Fusca’) > Busca a quantidade de elementos que tem na lista com aquele valor
+
+carros.reverse() > Ele vai inverter a ordem da lista.
+
+carros.sort() > Vai organizar a lista em alfanumérico 
+
+sorted(carros) > Vai organizar a lista para visualização, sem alterar a original. (Somente para visualização)
+
+list(reversed(carros)) > Vai inverter a lista, sem alterar a original. (Somente para visualização)
+
+carros.index(’Marea’) > Vai buscar na lista qual o indice do Marea (caso o carro digitado não esteja na lista, vai retornar um erro.)
+
+carros_ordenados = sorted(carros) > Vai criar uma copia da lista ordendando mas sem mexer na lista original.
+
+sum() -> Retorna a soma todos os números da lista
+max() -> Retorna o maior valor númerico da lista 
+min() -> Retorna o menor valor númerico da lista 
