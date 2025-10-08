@@ -1,0 +1,1 @@
+Pode chamar funções ou executar dentro da própria compreensão a expressão para executar
