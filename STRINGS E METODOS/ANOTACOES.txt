@@ -1,0 +1,42 @@
+texto = 'meu texto'
+
+print(texto[0])
+
+#Retorna o caracter 1 (m)
+
+print(texto[0:3])
+
+#Pegar trechos de uma string (meu)
+
+print(texto[4:])
+
+#Vai pegar da posição 4, até o final (texto)
+
+print(texto[:4])
+#Vai percorrer do começo até a posição 4 (meu)
+
+len(texto) → Vai retornar a quantidade de caracteres que tem
+
+texto.count(’e’) → Vai retornar quantas ocorrências tem daquela letra ou palavra informada tem no seu texto.
+
+texto.count(”e”, 4, 9) → Quantas ocorrências tem entre o caractere 4 a 9 
+
+texto.find(’Meu’) → Retorna a posição de inicio que tem essa string informada
+
+texto.upper() → Deixa o texto todo em caixa alta (capslock)
+
+texto.lower() → Deixa o texto todo em caixa baixa.
+
+texto.capitalize() → Deixa a primeira letra do texto maiúscula e o restante minúscula 
+
+texto.title() → Deixa a primeira letra de cada palavra em maiúsculo
+
+texto.split() → Retorna uma lista das palavras encontradas no texto, dividindo pelo espaço entre elas
+
+‘ ’.join(texto) → Junta uma lista de strings com o separador que colocar entre as aspas simples. 
+
+texto.strip() → Tira os espaços em branco do inicio e final.
+
+texto.rstrip() → Remove os espaços em branco da direita
+
+texto.lstrip() → Remove os espaços em branco da esquerda
