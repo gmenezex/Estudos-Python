@@ -1,0 +1,46 @@
+Os dicionários são semelhantes as listas. 
+Eles possuem chave e valor. Ela é criada com { } 
+
+Exemplo: (No exemplo abaixo vem suas chaves nome, idade e profissao e depois os seus valores.)
+
+meu_dicio = {'nome': 'Gabriel', 'idade': 28, 'profissao': 'Futuro dev'}
+
+print(meu_dicio[’nome’]) → Ele vai trazer o valor que está na chave nome ou seja, vai apresentar ‘Gabriel’ na tela
+
+print(meu_dicio.get('profissao')) → Também serve para trazer os valores.
+
+meu_dicio.pop('idade') → Tem que passar o valor da chave que quer remover do dicionário. Ele retorna o valor da chave removida
+
+del meu_dicio[’idade’] → Remove a chave e seu valor igual ao pop, mas não retorna o valor.
+
+meu_dicio.items() → Retorna uma visualização de todos os pares (chave, valor)
+
+meu_dicio.keys() → Vai listar somente as chaves sem os valores.
+
+meu_dicio.values() → Vai listar somente os valores sem as chaves.
+
+meu_dicio.clear() → Ele vai limpar todo o dicionário.
+
+meu_dicio.update({}) > Adiciona itens de outro dicionário (ou de um iterável de pares chave-valor) ao dicionário atual.
+
+Exemplo de dicionário:
+
+pessoa = {
+    'nome': 'Gabriel',
+    'idade': 28,
+    'profissao': 'Dev',
+    'interesses': ['Python', 'Programação', 'Futebol'],
+    'pet': {
+        'nome': 'Lili',
+        'idade': 7,
+        'peso': '5kg'
+    }
+}
+
+print(pessoa.get('nome'))
+print(pessoa.get('interesses')[0])
+print(pessoa.get('pet').get('nome'))
+
+pessoa['ano_nascimento'] = 1997  → Consigo adicionar uma chave e um valor, quando o dicionário não possui a chave (nesse exemplo o ‘ano_nascimento’)
+pessoa['cores_favoritas'] = ['Verde', 'Branco']
+pessoa['mae'] = {'nome': 'Antonia', 'idade': '60'}
