@@ -1,0 +1,9 @@
+É um bloco/conjunto de códigos que executam uma função e dão um retorno. 
+
+Ele facilita sua manutenção e também deixa mais organizada a aplicação.
+
+Python já tem algumas funções nativas (input, print e etc…)
+
+A função se cria com a sintaxe def
+
+Nem toda função vai dar um retorno.
