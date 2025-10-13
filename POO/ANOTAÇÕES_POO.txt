@@ -1,0 +1,23 @@
+POO (Programação Orientada a Objetos) é um paradigma de programação — ou seja, uma forma de pensar e estruturar o código — que se baseia na ideia de modelar o mundo real usando objetos.
+
+Esses objetos representam entidades (como uma pessoa, carro, produto, aluno etc.) e possuem:
+Atributos → características (ex: nome, idade, cor, preço)
+Métodos → comportamentos ou ações (ex: andar, estudar, calcular, salvar)
+
+-------- Pilares principais da POO -----------
+
+Encapsulamento:
+Esconde os detalhes internos do objeto e controla o acesso aos seus dados.
+Exemplo: só acessar o saldo de uma conta por meio de um método ver_saldo().
+
+Herança:
+Permite criar novas classes a partir de outras já existentes.
+Exemplo: a classe Carro herda de Veiculo e ganha suas propriedades.
+
+Polimorfismo:
+Um mesmo método pode ter comportamentos diferentes em classes diferentes.
+Exemplo: o método fazer_som() pode emitir “latido” em Cachorro e “miado” em Gato.
+
+Abstração:
+Foca apenas nos aspectos essenciais do objeto, ignorando detalhes desnecessários.
+Exemplo: você usa o carro sem precisar saber como funciona o motor internamente.
